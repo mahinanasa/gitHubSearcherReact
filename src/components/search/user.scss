@@ -1,0 +1,111 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  background: #ddd;
+}
+
+.img_cont {
+  text-align: center;
+  padding: 12px 15px;
+}
+
+img {
+  border-radius: 50%;
+  width: auto;
+  max-height: 120px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cont-container {
+  padding: 2px 16px 24px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-card-row {
+  display: flex;
+  column-gap: 15px;
+}
+
+.main-container {
+  max-width: 1140px;
+  margin: auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+input {
+  height: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  line-height: 16px;
+  min-width: 40%;
+  padding: 6px 12px;
+}
+
+.search-row, .head-row {
+  margin-bottom: 24px;
+}
+
+select {
+  height: 46px;
+  min-width: 10%;
+  padding: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 12px;
+}
+
+*:focus {
+  outline: none;
+}
+
+i.fa {
+  font-size: 48px;
+  margin-top: 22px;
+  margin-right: 12px;
+}
+
+.head-row {
+  display: flex;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+.head-row p {
+  margin: 0px;
+}
+
+.outer-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+h4 {
+  margin-bottom: 6px;
+}
+
+a {
+  padding-bottom: 12px;
+}
+
+.repo-card .img_cont {
+  padding: 0px;
+}
